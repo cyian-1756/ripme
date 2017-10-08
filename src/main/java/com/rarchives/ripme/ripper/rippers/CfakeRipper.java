@@ -63,8 +63,7 @@ public class CfakeRipper extends AbstractHTMLRipper {
                 // This for stops that
                 if (nextPage == "") {
                     return null;
-                }
-                else {
+                } else {
                     return Http.url("http://cfake.com" + nextPage).get();
                 }
             }
